@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tea Shop Menu</title>
+  <style>
+    body {
+      background-color: #d2b48c; /* light brown */
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #4b2e05;
+      margin-bottom: 40px;
+    }
+
+    .menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .product {
+      background-color: #fff8f0;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+      width: 220px;
+      text-align: center;
+      padding: 15px;
+      transition: transform 0.2s ease;
+    }
+
+    .product:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    }
+
+    .product img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .product h3 {
+      margin: 0 0 10px 0;
+      color: #6b4226;
+    }
+
+    .product p {
+      color: #8b5e3c;
+      font-weight: bold;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>HINDUSTHAN T shop</h1>
+
+  <div class="menu">
+    <div class="product">
+      <img src="c:\Users\user.HICET-IT-PRO-33\Desktop\download,gree.jfif" alt="Green Tea" />
+      <h3>Green Tea</h3>
+      <p>Rs.25</p>
+    </div>
+
+    <div class="product">
+      <img src="c:\Users\user.HICET-IT-PRO-33\Desktop\download" alt="Black Tea" />
+      <h3>Black Tea</h3>
+      <p>Rs.20</p>
+    </div>
+
+    <div class="product">
+      <img src="c:\Users\user.HICET-IT-PRO-33\Desktop\download.gin.jfif" alt="Herbal Tea" />
+      <h3>Inchi Tea</h3>
+      <p>Rs.15</p>
+    </div>
+
+    <div class="product">
+      <img src="c:\Users\user.HICET-IT-PRO-33\Desktop\download.ttttt.jfif" alt="Chai Tea" />
+      <h3>Normal Tea</h3>
+      <p>Rs.10</p>
+    </div>
+
+    <div class="product">
+      <img src="c:\Users\user.HICET-IT-PRO-33\Desktop\images (1).sukkuuuuu.jfif" alt="Oolong Tea" />
+      <h3>Sukku Tea</h3>
+      <p>Rs.13</p>
+    </div>
+   
+    <div class="product">
+      <img src="c:\Users\user.HICET-IT-PRO-33\Desktop\Kerala-Egg-Puffs.webp" alt="Oolong Tea" />
+      <h3>Egg puffs</h3>
+      <p>Rs.30</p>
+    </div>
+  </div>
+
+</body>
+</html>
